@@ -1,0 +1,18 @@
+.character-card {
+  width: 100%;
+  background: red;
+  max-height: max-content;
+  padding: 2em;
+  border-radius: 1em;
+  list-style: none;
+  gap: 1em;
+  margin: 1em;
+}
+
+.character-card__img {
+  width: 100%;
+  display: block;
+  max-height: 200px;
+  object-fit: contain;
+  object-position: top center;
+}

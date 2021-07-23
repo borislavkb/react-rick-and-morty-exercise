@@ -8,6 +8,9 @@ export default function Characters() {
       <Form />
       <ul className="characterList">
         <CharacterCard />
+        <CharacterCard />
+        <CharacterCard />
+        <CharacterCard />
       </ul>
 
       <button>More</button>
