@@ -2,7 +2,7 @@ import "./App.css";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import Characters from "./components/Characters";
-
+import SingleCharacter from "./components/SingleCharacter";
 function App() {
   return (
     <div className="App">
@@ -10,6 +10,7 @@ function App() {
       <main>
         {/* <Home /> */}
         <Characters />
+        <SingleCharacter />
       </main>
     </div>
   );
